@@ -5,7 +5,7 @@ import "./HomePage.styles.css";
 export function HomePage() {
 	return (
 		<div className="app-container">
-			<UserCard />
+			<UserCard name="Leanne Graham" username="Bret" website="hildegard.org" />
 		</div>
 	);
 }
