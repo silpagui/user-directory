@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Button/Button.component";
 import "./UserCard.styles.css";
 
 export function UserCard() {
@@ -10,7 +11,7 @@ export function UserCard() {
 			<a href="https://kale.biz" className="user-card__website">
 				https://kale.biz
 			</a>
-			<button className="button">More Details</button>
+			<Button />
 		</div>
 	);
 }
