@@ -9,8 +9,8 @@ export function App() {
 	return (
 		<BrowserRouter basename="/user-directory">
 			<Routes>
-				<Route exact path="/" element={<HomePage />} />
-				<Route exact path="/:userId" element={<UserDetails />} />
+				<Route path="/" element={<HomePage />} />
+				<Route path="/:userId" element={<UserDetails />} />
 			</Routes>
 		</BrowserRouter>
 	);
