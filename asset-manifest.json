@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/silpagui/user-directory/static/css/main.aadfdaba.css",
-    "main.js": "/silpagui/user-directory/static/js/main.53e10de0.js",
+    "main.js": "/silpagui/user-directory/static/js/main.1e71ba56.js",
     "index.html": "/silpagui/user-directory/index.html",
     "main.aadfdaba.css.map": "/silpagui/user-directory/static/css/main.aadfdaba.css.map",
-    "main.53e10de0.js.map": "/silpagui/user-directory/static/js/main.53e10de0.js.map"
+    "main.1e71ba56.js.map": "/silpagui/user-directory/static/js/main.1e71ba56.js.map"
   },
   "entrypoints": [
     "static/css/main.aadfdaba.css",
-    "static/js/main.53e10de0.js"
+    "static/js/main.1e71ba56.js"
   ]
 }
