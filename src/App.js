@@ -7,7 +7,7 @@ import { UserDetails } from "./components/UserDetails/UserDetails.component";
 
 export function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/user-directory">
 			<Routes>
 				<Route exact path="/" element={<HomePage />} />
 				<Route exact path="/:userId" element={<UserDetails />} />
