@@ -12,7 +12,7 @@ export function UserCard(props) {
 			<a href={website} className="user-card__website">
 				{website}
 			</a>
-			<Button />
+			<Button path={props.id} />
 		</div>
 	);
 }

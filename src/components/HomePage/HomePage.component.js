@@ -4,15 +4,18 @@ import "./HomePage.styles.css";
 
 export function HomePage() {
 	const [users, setUsers] = useState([]);
-	useEffect(() => {
-		fetch("https://jsonplaceholder.typicode.com/users")
-			.then((response) => {
-				return response.json();
-			})
-			.then((users) => {
-				setUsers(users);
-			});
-	}, [setUsers]);
+	useEffect(
+		function updateUsersData() {
+			fetch("https://jsonplaceholder.typicode.com/users")
+				.then((response) => {
+					return response.json();
+				})
+				.then((users) => {
+					setUsers(users);
+				});
+		},
+		[setUsers]
+	);
 	return (
 		<div className="app-container">
 			{users.map((user) => {
@@ -22,6 +25,7 @@ export function HomePage() {
 						name={user.name}
 						username={user.username}
 						website={user.website}
+						id={user.id}
 					/>
 				);
 			})}
