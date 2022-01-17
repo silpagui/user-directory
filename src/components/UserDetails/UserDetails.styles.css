@@ -1,0 +1,26 @@
+.details {
+	font-family: "Lato", sans-serif;
+	padding: 70px;
+}
+
+.details h2 {
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.details p {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: rgb(9, 107, 118);
+}
+
+.details h3,
+.details li {
+	color: rgb(113, 107, 107);
+	margin-bottom: 15px;
+}
+
+.details li:last-child {
+	margin: 0;
+}
